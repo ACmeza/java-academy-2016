@@ -1,0 +1,38 @@
+package exercises.java.exercise4;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Exercise4 {
+
+	public static void main(String[] args) {
+		char toSearch = 'h';
+		int timesFound = 0;
+		FileReader fr = null;
+		try{
+			fr = new FileReader("/Users/antonio/Desktop/java-academy-2016/java-2/exercises/Solution/src/exercises/java/exercise4/text.rtf");
+			BufferedReader br = new BufferedReader(fr);
+			String linea=null;
+			while ((linea = br.readLine()) != null){
+				char arr[] = linea.toCharArray();
+				for(char a : arr){
+					if(a == toSearch)
+						System.out.println(toSearch+"::::"+a);
+						timesFound++;
+				}
+				
+			}
+		}
+		catch(FileNotFoundException e){
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println(timesFound);
+	
+	}
+
+}

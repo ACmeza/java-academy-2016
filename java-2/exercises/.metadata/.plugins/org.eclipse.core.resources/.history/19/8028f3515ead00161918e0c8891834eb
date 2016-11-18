@@ -1,0 +1,22 @@
+package exercises.java.exercise2;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		
+		Set<Integer>grades = new HashSet<Integer>();
+		grades.add(1);
+		grades.add(2);
+		grades.add(3);
+		grades.add(4);
+		grades.add(5);
+		grades.add(6);
+		for(Integer grade : grades){
+			System.out.println(grade);
+		}
+	}
+
+}

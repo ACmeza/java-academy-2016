@@ -1,0 +1,13 @@
+package exercises.java.exercise4;
+public class Exercise4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new InputStreamReader(new FileInputStream("data"));
+		new InputStreamReader(new FileReader("data"));
+		new InputStreamReader(new BufferedReader("data"));
+		new InputStreamReader("data");
+		new InputStreamReader(System.in);
+	}
+
+}

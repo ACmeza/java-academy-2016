@@ -1,0 +1,21 @@
+package exercises.java.exercise3;
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Shape a = Shape.CIRCLE;
+		
+		switch(a){
+		case SQUARE: 
+			System.out.println("Square");
+			break;	
+		case TRIANGLE: 
+			System.out.println("Triangle");
+			break;	
+		case CIRCLE: 
+			System.out.println("Circle");
+			break;	
+		}
+	}
+
+}

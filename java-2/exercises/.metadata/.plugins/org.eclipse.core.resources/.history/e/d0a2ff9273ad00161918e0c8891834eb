@@ -1,0 +1,18 @@
+package exercises.java.exercise4;
+
+import java.io.File;
+
+public class Exercise4_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean returnValue = new File("/Users/antonio/Desktop/java-academy-2016/java-2/exercises/Solution/src/exercises/java/exercise4/a").mkdirs();
+		if(returnValue){
+			System.out.println("Success: File created");
+		}
+		else{
+			System.out.println("Error: File not created");
+		}
+	}
+
+}

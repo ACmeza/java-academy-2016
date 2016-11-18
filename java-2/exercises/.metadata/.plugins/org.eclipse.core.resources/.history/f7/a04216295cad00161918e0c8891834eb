@@ -1,0 +1,19 @@
+package exercises.java.exercise1;
+import java.io.*;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		try {
+			FileReader fr = new FileReader("data.txt");
+			}
+			catch(IOException e){}
+			try {
+			fr.close();
+			}
+			catch(IOException e){}
+			}
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package exercises.java.exercise3;
+
+public enum Shape {
+
+}

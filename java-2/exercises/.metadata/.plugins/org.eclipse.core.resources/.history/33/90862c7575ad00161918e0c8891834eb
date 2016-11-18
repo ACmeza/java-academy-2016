@@ -1,0 +1,12 @@
+package exercises.java.exercise2;
+
+public class Exercise2_2 {
+
+	public static void main(String[] args) {
+        for(String s : args) {
+            System.out.println(s);
+        }
+
+	}
+
+}

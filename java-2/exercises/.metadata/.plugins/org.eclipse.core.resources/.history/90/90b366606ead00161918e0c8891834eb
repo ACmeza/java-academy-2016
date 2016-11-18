@@ -1,0 +1,11 @@
+package exercises.java.exercise1;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+
+		String a = "HOLA";
+		System.out.println(a[2]);
+	}
+
+}

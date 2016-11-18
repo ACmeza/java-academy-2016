@@ -1,0 +1,12 @@
+package exercises.java.exercise4;
+
+import java.io.File;
+
+public class Exercise4_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean success = new File("/Users/antonio/Desktop/java-academy-2016/java-2/exercises/Solution/src/exercises/java/exercise4/a").mkdirs();
+	}
+
+}
